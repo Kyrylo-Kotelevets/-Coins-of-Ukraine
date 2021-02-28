@@ -11,3 +11,5 @@ After the hierarchical and relational databases have been created, the following
 
 After creating relational copies, data analysis using SQL methods and tools is available. An example of a standard analysis and tabular data view contained in the worksheet module below:
 ![there must be a beatiful image](https://github.com/Kyrylo-Kotelevets/Coins-of-Ukraine/blob/main/examples/table.PNG)
+After unpacking the price history of coins, you can display a graph of price changes and build a polynomial regression. An example of a graph is shown below:
+![there must be a beatiful image](https://github.com/Kyrylo-Kotelevets/Coins-of-Ukraine/blob/main/examples/graphic.PNG)
