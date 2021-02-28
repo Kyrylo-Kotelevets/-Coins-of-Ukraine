@@ -4,7 +4,9 @@ This repository is intended for those who collect Ukrainian coins. The repositor
 To get started, you need to run the "update_prices" function from the "parse" module with the required parameters. The launch will create a catalog with data on coins, images and history of value, and after the end of parsing, it will package the entire database into a relational form.
 
 After the hierarchical and relational databases have been created, the following functions of the DBMS module are used to manipulate the copies and database formats:
-+ pack_data () - packs a hierarchical directory into a relational view
-+ pack_dynamics () - unpacks a relational copy into a hierarchical directory
-+ unpack_data () - packs the hierarchically stored price change data into a relational view
-+ unpack_dynamics () - unpacks a copy of price change data into a hierarchical view
++ pack_data - packs a hierarchical directory into a relational view
++ pack_dynamics - unpacks a relational copy into a hierarchical directory
++ unpack_data - packs the hierarchically stored price change data into a relational view
++ unpack_dynamics - unpacks a copy of price change data into a hierarchical view
+
+After creating relational copies, data analysis using SQL methods and tools is available. An example of a standard analysis and tabular data view contained in the worksheet module below:
